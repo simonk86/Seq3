@@ -5,7 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Channel" Type="Folder">
 		<Item Name="Abstract Messages for Caller" Type="Folder"/>
-		<Item Name="Messages for this Actor" Type="Folder"/>
+		<Item Name="Messages for this Actor" Type="Folder">
+			<Item Name="Open FP Msg.lvclass" Type="LVClass" URL="../Channel Messages/Open FP Msg/Open FP Msg.lvclass"/>
+		</Item>
 		<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel/Channel.lvclass"/>
 	</Item>
 	<Item Name="Models" Type="Folder">

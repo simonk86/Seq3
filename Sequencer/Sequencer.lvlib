@@ -6,6 +6,7 @@
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Insert Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Insert Channel Msg/Insert Channel Msg.lvclass"/>
+		<Item Name="Open Channel Panel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Open Channel Panel Msg/Open Channel Panel Msg.lvclass"/>
 		<Item Name="Remove Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Remove Channel Msg/Remove Channel Msg.lvclass"/>
 	</Item>
 	<Item Name="Model" Type="Folder">
