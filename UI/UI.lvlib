@@ -8,7 +8,7 @@
 		<Item Name="Add Channel to Sequence Msg.lvclass" Type="LVClass" URL="../UI Messages/Add Channel to Sequence Msg/Add Channel to Sequence Msg.lvclass"/>
 		<Item Name="Remove Channels from Sequence Msg.lvclass" Type="LVClass" URL="../UI Messages/Remove Channels from Sequence Msg/Remove Channels from Sequence Msg.lvclass"/>
 		<Item Name="Update Refs Msg.lvclass" Type="LVClass" URL="../UI Messages/Update Refs Msg/Update Refs Msg.lvclass"/>
-		<Item Name="Update Sequence Params Msg.lvclass" Type="LVClass" URL="../UI Messages/Update Sequence Params Msg/Update Sequence Params Msg.lvclass"/>
+		<Item Name="Update SequencerInfo Msg.lvclass" Type="LVClass" URL="../UI Messages/Update SequencerInfo Msg/Update SequencerInfo Msg.lvclass"/>
 		<Item Name="Update used channels Msg.lvclass" Type="LVClass" URL="../UI Messages/Update used channels Msg/Update used channels Msg.lvclass"/>
 	</Item>
 	<Item Name="UI.lvclass" Type="LVClass" URL="../UI/UI.lvclass"/>

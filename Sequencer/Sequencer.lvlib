@@ -5,12 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Broadcast SequencerInfo Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Broadcast SequencerInfo Msg/Broadcast SequencerInfo Msg.lvclass"/>
 		<Item Name="Insert Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Insert Channel Msg/Insert Channel Msg.lvclass"/>
 		<Item Name="Open Channel Panel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Open Channel Panel Msg/Open Channel Panel Msg.lvclass"/>
 		<Item Name="Remove Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Remove Channel Msg/Remove Channel Msg.lvclass"/>
 	</Item>
 	<Item Name="Model" Type="Folder">
 		<Item Name="SequencerConfig.lvclass" Type="LVClass" URL="../SequencerConfig.lvclass"/>
+		<Item Name="SequencerInfo.lvclass" Type="LVClass" URL="../SequencerInfo.lvclass"/>
 	</Item>
 	<Item Name="Sequencer.lvclass" Type="LVClass" URL="../Sequencer/Sequencer.lvclass"/>
 </Library>

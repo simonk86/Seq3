@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="OChConfig.lvclass" Type="LVClass" URL="../OChConfig.lvclass"/>
 	<Item Name="Output Channel.lvclass" Type="LVClass" URL="../Output Channel/Output Channel.lvclass"/>
 </Library>

@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Launcher" Type="Folder">
+			<Item Name="Start.vi" Type="VI" URL="../Start.vi"/>
+		</Item>
 		<Item Name="Channel" Type="Folder">
 			<Item Name="Channel.lvlib" Type="Library" URL="../Channel/Channel.lvlib"/>
 			<Item Name="Input Channel.lvlib" Type="Library" URL="../Input Channel/Input Channel.lvlib"/>
@@ -19,11 +22,12 @@
 			<Item Name="Digital Output Channel.lvlib" Type="Library" URL="../Digital Output Channel/Digital Output Channel.lvlib"/>
 			<Item Name="Analog Input Channel.lvlib" Type="Library" URL="../Analog Input Channel/Analog Input Channel.lvlib"/>
 		</Item>
-		<Item Name="Start.vi" Type="VI" URL="../Start.vi"/>
 		<Item Name="Sequencer.lvlib" Type="Library" URL="../Sequencer/Sequencer.lvlib"/>
 		<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
 		<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Channel/Channel/Untitled 2.vi"/>
+		<Item Name="Win8uiFramework.lvlib" Type="Library" URL="/&lt;userlib&gt;/_Win8uiFramework/Win8uiFramework.lvlib"/>
+		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -65,10 +69,17 @@
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

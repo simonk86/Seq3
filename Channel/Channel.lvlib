@@ -7,12 +7,14 @@
 		<Item Name="Abstract Messages for Caller" Type="Folder"/>
 		<Item Name="Messages for this Actor" Type="Folder">
 			<Item Name="Open FP Msg.lvclass" Type="LVClass" URL="../Channel Messages/Open FP Msg/Open FP Msg.lvclass"/>
+			<Item Name="Update Channel Info Msg.lvclass" Type="LVClass" URL="../Channel Messages/Update Channel Info Msg/Update Channel Info Msg.lvclass"/>
 		</Item>
 		<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel/Channel.lvclass"/>
 	</Item>
 	<Item Name="Models" Type="Folder">
 		<Item Name="Channel Data" Type="Folder"/>
 		<Item Name="ChannelConfig.lvclass" Type="LVClass" URL="../ChannelConfig.lvclass"/>
+		<Item Name="ChannelData.lvclass" Type="LVClass" URL="../ChannelData.lvclass"/>
 		<Item Name="ChannelInfo.lvclass" Type="LVClass" URL="../ChannelInfo.lvclass"/>
 	</Item>
 </Library>
