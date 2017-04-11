@@ -23,17 +23,10 @@
 			<Item Name="Analog Input Channel.lvlib" Type="Library" URL="../Analog Input Channel/Analog Input Channel.lvlib"/>
 		</Item>
 		<Item Name="Sequencer" Type="Folder">
-			<Item Name="Sequencer.lvlib" Type="Library" URL="../Sequencer/Sequencer.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../UI/UI.lvlib"/>
-		</Item>
-		<Item Name="IO Device" Type="Folder">
-			<Item Name="Model" Type="Folder">
-				<Item Name="IODevConfig.lvclass" Type="LVClass" URL="../IO Device/IODevConfig.lvclass"/>
-				<Item Name="IODevInfo.lvclass" Type="LVClass" URL="../IO Device/IODevInfo.lvclass"/>
-			</Item>
-			<Item Name="IO Device.lvlib" Type="Library" URL="../IO Device/IO Device.lvlib"/>
-			<Item Name="Simulated DAQ.lvlib" Type="Library" URL="../Simulated DAQ/Simulated DAQ.lvlib"/>
-			<Item Name="NI DAQ.lvlib" Type="Library" URL="../NI DAQ/NI DAQ.lvlib"/>
+			<Item Name="Sequencer.lvlib" Type="Library" URL="../Sequencer/Sequencer.lvlib"/>
+			<Item Name="DAQmx Sequencer.lvlib" Type="Library" URL="../DAQmx Sequencer/DAQmx Sequencer.lvlib"/>
+			<Item Name="Simulated Sequencer.lvlib" Type="Library" URL="../Simulated Sequencer/Simulated Sequencer.lvlib"/>
 		</Item>
 		<Item Name="Junk/Sandbox" Type="Folder">
 			<Item Name="Untitled 5.vi" Type="VI" URL="../Untitled 5.vi"/>
