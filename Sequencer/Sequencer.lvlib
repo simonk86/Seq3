@@ -8,7 +8,10 @@
 		<Item Name="Broadcast SequencerInfo Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Broadcast SequencerInfo Msg/Broadcast SequencerInfo Msg.lvclass"/>
 		<Item Name="Insert Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Insert Channel Msg/Insert Channel Msg.lvclass"/>
 		<Item Name="Open Channel Panel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Open Channel Panel Msg/Open Channel Panel Msg.lvclass"/>
+		<Item Name="Play Sequence Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Play Sequence Msg/Play Sequence Msg.lvclass"/>
 		<Item Name="Remove Channel Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Remove Channel Msg/Remove Channel Msg.lvclass"/>
+		<Item Name="Update Channel Data Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Update Channel Data Msg/Update Channel Data Msg.lvclass"/>
+		<Item Name="Update IODevInfo Msg.lvclass" Type="LVClass" URL="../Sequencer Messages/Update IODevInfo Msg/Update IODevInfo Msg.lvclass"/>
 	</Item>
 	<Item Name="Model" Type="Folder">
 		<Item Name="SequencerConfig.lvclass" Type="LVClass" URL="../SequencerConfig.lvclass"/>
